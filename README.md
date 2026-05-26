@@ -56,3 +56,10 @@ GitHub Pages no ejecuta foros internos con usuarios y base de datos. La opción 
 - Google Groups, si quieres algo más sencillo y clásico.
 
 En `index.html` busca `TU_USUARIO` y sustitúyelo por tu usuario real de GitHub.
+
+
+## Cambios visuales realizados
+
+- Se ha insertado de forma visible el logo/sigilo de la editorial en la cabecera y en el bloque principal.
+- Se ha añadido una tipografía gótica para títulos, botones, navegación y marca mediante Google Fonts (`UnifrakturCook`).
+- El cuerpo del texto mantiene una serif legible (`Cormorant Garamond`) para no perjudicar la lectura.

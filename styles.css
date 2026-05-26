@@ -11,7 +11,10 @@
   --line: rgba(240, 231, 215, 0.16);
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
   --radius: 24px;
+  --font-body: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-gothic: "UnifrakturCook", Georgia, serif;
 }
+
 
 * {
   box-sizing: border-box;
@@ -23,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-body);
   background:
     radial-gradient(circle at top left, rgba(120, 31, 34, 0.28), transparent 36rem),
     radial-gradient(circle at top right, rgba(199, 155, 82, 0.12), transparent 30rem),
@@ -73,7 +76,63 @@ code {
 }
 
 .brand-text {
-  font-size: 0.9rem;
+  font-size: 1.05rem;
+  font-family: var(--font-gothic);
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.main-nav a,
+.button,
+.hero-content h1,
+.hero-card h2,
+.hero-card h3,
+.section-heading h2,
+.manifesto h2,
+.legal h2,
+.book-card h3,
+.community-card h3,
+.site-footer a {
+  font-family: var(--font-gothic);
+  letter-spacing: 0.02em;
+}
+
+.hero-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid rgba(199,155,82,0.25);
+  border-radius: 20px;
+  background: rgba(255,255,255,0.04);
+  box-shadow: var(--shadow);
+}
+
+.hero-logo-image {
+  width: 88px;
+  height: 88px;
+  flex: 0 0 auto;
+}
+
+.hero-logo-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-caption {
+  margin: 0;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+}
+
+.logo-name {
+  margin: 0.1rem 0 0;
+  font-family: var(--font-gothic);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  line-height: 1;
 }
 
 .main-nav {
@@ -121,7 +180,7 @@ code {
 
 .hero-content h1 {
   font-size: clamp(3rem, 8vw, 7.7rem);
-  line-height: 0.88;
+  line-height: 0.95;
   margin: 0 0 1.25rem;
   letter-spacing: -0.055em;
 }
@@ -459,4 +518,10 @@ code {
   .book-cover {
     min-height: 300px;
   }
+
+  .hero-logo {
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
+
