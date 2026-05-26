@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#090806"/>
+  <circle cx="940" cy="150" r="260" fill="#781f22" opacity=".28"/>
+  <circle cx="170" cy="500" r="240" fill="#c79b52" opacity=".16"/>
+  <text x="86" y="240" fill="#f0e7d7" font-family="Georgia, serif" font-size="86" font-weight="700">Editorial</text>
+  <text x="86" y="340" fill="#f0e7d7" font-family="Georgia, serif" font-size="96" font-weight="700">Escatonomicón</text>
+  <text x="90" y="418" fill="#c79b52" font-family="Georgia, serif" font-size="34">Libros · Juegos de rol · Literatura extraña</text>
+</svg>
