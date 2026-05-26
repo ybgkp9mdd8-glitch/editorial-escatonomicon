@@ -61,3 +61,10 @@ Archivos añadidos en `assets/`:
 - `favicon.png`
 - `apple-touch-icon.png`
 - `og-image.png`
+
+
+## Ajustes solicitados posteriormente
+
+- Se ha usado como identidad principal el **logo exacto subido por el usuario**.
+- Se ha eliminado la tipografía gótica anterior y se ha sustituido por una combinación más parecida al sello: `Playfair Display` / `Cormorant Garamond` / `Cinzel`.
+- El fondo general del sitio se ha dejado en **negro total** (`#000000`).
