@@ -85,3 +85,13 @@ Archivos añadidos en `assets/`:
 - Sello blanco como protagonista absoluto.
 - Header más discreto con el logo exacto convertido a blanco.
 - Botones minimalistas y composición más editorial.
+
+
+## Imagen de Rituales en la lluvia
+
+La sección de `Rituales en la lluvia` usa ahora la cubierta completa aportada por el usuario:
+
+- `assets/rituales-en-la-lluvia-cover.jpg`
+- `assets/rituales-en-la-lluvia-cover-thumb.jpg`
+
+El bloque HTML actualizado está en `index.html`, dentro de `<article id="rituales" class="book-showcase">`.
