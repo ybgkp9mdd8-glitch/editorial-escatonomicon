@@ -76,3 +76,12 @@ Archivos añadidos en `assets/`:
 - Fondo de la web unificado a **negro integral**.
 - El **sello principal de la portada** se muestra en **blanco** sobre fondo negro.
 - Se mantiene el logo exacto en placa blanca como parte de la identidad editorial.
+
+
+## Home sobria y premium
+
+- Nueva home centrada y más limpia.
+- Fondo negro integral.
+- Sello blanco como protagonista absoluto.
+- Header más discreto con el logo exacto convertido a blanco.
+- Botones minimalistas y composición más editorial.
