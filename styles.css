@@ -646,3 +646,225 @@ code {
     width: min(62vw, 240px);
   }
 }
+
+
+/* Portada lujosa y fondo negro integral */
+html, body {
+  background: #000000;
+}
+
+.site-header {
+  background: rgba(0,0,0,.94);
+  border-bottom: 1px solid rgba(210,165,93,.28);
+  box-shadow: 0 8px 28px rgba(0,0,0,.45);
+}
+
+.main-nav a {
+  color: #e8dccd;
+}
+
+.main-nav a::after {
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  height: 2px;
+}
+
+.hero {
+  min-height: calc(100vh - 80px);
+  align-items: center;
+}
+
+.frame-section::before {
+  inset: 1.15rem;
+  border-radius: 36px;
+  border-color: rgba(210,165,93,.42);
+}
+
+.frame-section::after {
+  inset: 1.75rem;
+  border-radius: 30px;
+  border-color: rgba(243,232,213,.14);
+}
+
+.hero-left {
+  max-width: 760px;
+}
+
+.hero h1 {
+  font-size: clamp(4.3rem, 10vw, 8.4rem);
+  letter-spacing: .015em;
+}
+
+.lead {
+  color: #e1d4c4;
+  max-width: 680px;
+}
+
+.hero-luxury-note {
+  margin-top: 1.2rem;
+  color: var(--gold);
+  font-family: var(--font-caps);
+  font-size: .78rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.hero-divider {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  margin: 1rem 0 0;
+  max-width: 520px;
+}
+
+.hero-divider span {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(210,165,93,.65), transparent);
+}
+
+.hero-divider i {
+  font-style: normal;
+  color: var(--gold);
+  font-size: 1rem;
+}
+
+.hero-actions {
+  margin-top: 2.2rem;
+}
+
+.button {
+  border-color: rgba(210,165,93,.28);
+}
+
+.button.primary {
+  background: linear-gradient(180deg, #8b272f, #5d1419);
+  box-shadow: 0 16px 40px rgba(115,27,32,.26), inset 0 1px 0 rgba(255,255,255,.12);
+}
+
+.button.secondary {
+  background: rgba(255,255,255,.03);
+}
+
+.seal-panel {
+  background: #000000;
+  border: 1px solid rgba(210,165,93,.42);
+  box-shadow: 0 0 0 1px rgba(243,232,213,.08), 0 24px 70px rgba(0,0,0,.6);
+}
+
+.seal-orbit {
+  background: radial-gradient(circle at 50% 35%, rgba(255,255,255,.05), rgba(255,255,255,0) 60%), #000000;
+  border: 1px solid rgba(210,165,93,.28);
+  box-shadow: inset 0 0 0 1px rgba(243,232,213,.06), 0 18px 48px rgba(0,0,0,.52);
+}
+
+.hero-seal-white {
+  width: min(100%, 380px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 12px rgba(255,255,255,.05));
+}
+
+.seal-kicker {
+  color: var(--gold);
+}
+
+.seal-panel h2 {
+  color: #ffffff;
+}
+
+.seal-panel p:last-child {
+  color: #d8cbbb;
+}
+
+.seal-logo-plaque {
+  margin-top: 1.4rem;
+  padding: .55rem;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid rgba(210,165,93,.28);
+  display: inline-flex;
+  justify-content: center;
+  box-shadow: 0 12px 34px rgba(0,0,0,.35);
+}
+
+.seal-logo-exact {
+  width: min(100%, 210px);
+  height: auto;
+  display: block;
+}
+
+.editorial-strip,
+.dark-panel-section,
+.community-section,
+.legal-section,
+.section,
+.newsletter-panel,
+.site-footer {
+  background: #000000;
+}
+
+.editorial-strip {
+  border-top: 1px solid rgba(210,165,93,.24);
+  border-bottom: 1px solid rgba(210,165,93,.24);
+}
+
+.book-showcase,
+.mini-card,
+.community-card,
+.contact-card,
+.legal-box,
+.download-item,
+.newsletter-panel {
+  background: linear-gradient(180deg, rgba(255,255,255,.028), rgba(255,255,255,.015));
+  border-color: rgba(210,165,93,.16);
+}
+
+.book-object {
+  background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)), #000000;
+  border: 1px solid rgba(210,165,93,.25);
+  box-shadow: inset 0 0 0 1px rgba(243,232,213,.05), 0 24px 60px rgba(0,0,0,.55);
+}
+
+.book-object::before {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 1px solid rgba(210,165,93,.18);
+  border-radius: 16px;
+  pointer-events: none;
+}
+
+.book-topline,
+.book-author {
+  color: var(--gold);
+}
+
+.book-object img {
+  background: #ffffff;
+}
+
+.download-item {
+  background: rgba(255,255,255,.02);
+}
+
+.footer-brand {
+  align-items: center;
+}
+
+.footer-mark {
+  width: 52px;
+  height: 52px;
+}
+
+@media (max-width: 980px) {
+  .hero-left {
+    max-width: 100%;
+  }
+  .hero-seal-white {
+    width: min(100%, 300px);
+  }
+  .seal-logo-exact {
+    width: min(100%, 170px);
+  }
+}

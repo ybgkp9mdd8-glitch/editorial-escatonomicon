@@ -68,3 +68,11 @@ Archivos añadidos en `assets/`:
 - Se ha usado como identidad principal el **logo exacto subido por el usuario**.
 - Se ha eliminado la tipografía gótica anterior y se ha sustituido por una combinación más parecida al sello: `Playfair Display` / `Cormorant Garamond` / `Cinzel`.
 - El fondo general del sitio se ha dejado en **negro total** (`#000000`).
+
+
+## Nueva revisión estética
+
+- Portada rediseñada con un aire más **lujoso**.
+- Fondo de la web unificado a **negro integral**.
+- El **sello principal de la portada** se muestra en **blanco** sobre fondo negro.
+- Se mantiene el logo exacto en placa blanca como parte de la identidad editorial.
