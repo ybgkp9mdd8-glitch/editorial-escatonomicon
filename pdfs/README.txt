@@ -5,4 +5,4 @@ Nombres esperados por la web:
 - ficha-personaje.pdf
 - erratas.pdf
 
-Si usas otros nombres, actualiza los enlaces en index.html.
+Si usas otros nombres, cambia los enlaces en index.html.

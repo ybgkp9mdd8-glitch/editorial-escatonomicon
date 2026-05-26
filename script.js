@@ -3,8 +3,8 @@ const nav = document.querySelector(".main-nav");
 
 if (toggle && nav) {
   toggle.addEventListener("click", () => {
-    const open = nav.classList.toggle("open");
-    toggle.setAttribute("aria-expanded", String(open));
+    const isOpen = nav.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", String(isOpen));
   });
 
   nav.querySelectorAll("a").forEach((link) => {
@@ -16,6 +16,4 @@ if (toggle && nav) {
 }
 
 const year = document.getElementById("year");
-if (year) {
-  year.textContent = new Date().getFullYear();
-}
+if (year) year.textContent = new Date().getFullYear();

@@ -1,65 +1,63 @@
-# Editorial Escatonomicón — web para GitHub Pages
+# Editorial Escatonomicón — versión premium para GitHub Pages
 
-Esta carpeta contiene una web estática lista para publicar en GitHub Pages.
+Web estática gratuita, lista para subir a GitHub Pages.
 
-## Archivos principales
+## Archivos incluidos
 
 - `index.html`: página principal.
-- `styles.css`: estilos visuales.
+- `styles.css`: estilos premium, estética oscura y tipografía gótica.
 - `script.js`: menú móvil y año automático.
-- `assets/`: imágenes SVG de la identidad visual.
-- `pdfs/`: coloca aquí tus PDFs descargables.
+- `404.html`: página de error personalizada.
+- `assets/logo-escatonomicon.svg`: logo/sigilo editorial.
+- `assets/favicon.svg`: icono del navegador.
+- `assets/og-image.svg`: imagen para compartir en redes.
+- `pdfs/`: carpeta preparada para tus PDFs.
 
-## Cómo publicarla gratis en GitHub Pages
+## Qué debes cambiar antes de publicar
 
-1. Crea una cuenta en GitHub, si todavía no la tienes.
-2. Crea un repositorio nuevo llamado `editorial-escatonomicon`.
-3. Sube todos los archivos de esta carpeta al repositorio.
-4. Entra en `Settings` > `Pages`.
-5. En `Build and deployment`, selecciona:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-6. Guarda los cambios.
-7. La web aparecerá en una dirección similar a:
+Busca en `index.html` estas expresiones y sustitúyelas:
 
-   `https://TU_USUARIO.github.io/editorial-escatonomicon/`
+- `TU_USUARIO` por tu usuario real de GitHub.
+- `contacto@escatonomicon.com` por tu correo real, si todavía no tienes ese dominio.
+- Los enlaces de Discord por tu invitación real, si creas servidor.
 
-## Para usar una dirección principal
+## PDFs esperados
 
-Si quieres que la web esté en:
+La web enlaza a estos archivos:
 
-`https://TU_USUARIO.github.io/`
+- `pdfs/rituales-en-la-lluvia.pdf`
+- `pdfs/ficha-personaje.pdf`
+- `pdfs/erratas.pdf`
 
-crea el repositorio con el nombre exacto:
+Cuando tengas tus PDFs reales, mételos en la carpeta `pdfs/` con esos nombres.
 
-`TU_USUARIO.github.io`
+## Cómo subir esta versión a GitHub
 
-y sube ahí estos archivos.
+1. Descomprime el `.zip`.
+2. Entra en tu repositorio de GitHub.
+3. Pulsa `Add file` > `Upload files`.
+4. Arrastra todos los archivos y carpetas de esta versión.
+5. Baja hasta `Commit changes`.
+6. Escribe un mensaje, por ejemplo: `Actualización premium de la web`.
+7. Pulsa `Commit changes`.
 
-## Sustituir PDFs
-
-Cambia los archivos de la carpeta `pdfs/` por los PDFs reales y conserva estos nombres si no quieres tocar el HTML:
-
-- `rituales-en-la-lluvia.pdf`
-- `ficha-personaje.pdf`
-- `erratas.pdf`
-
-También puedes cambiar los enlaces directamente en `index.html`.
-
-## Foro
-
-GitHub Pages no ejecuta foros internos con usuarios y base de datos. La opción gratuita recomendada es:
-
-- GitHub Discussions, si quieres mantenerlo todo en GitHub.
-- Discord, si quieres una comunidad más viva.
-- Google Groups, si quieres algo más sencillo y clásico.
-
-En `index.html` busca `TU_USUARIO` y sustitúyelo por tu usuario real de GitHub.
+Si GitHub Pages ya estaba activado, la web se actualizará sola tras unos segundos.
 
 
-## Cambios visuales realizados
+## Actualización de identidad visual
 
-- Se ha insertado de forma visible el logo/sigilo de la editorial en la cabecera y en el bloque principal.
-- Se ha añadido una tipografía gótica para títulos, botones, navegación y marca mediante Google Fonts (`UnifrakturCook`).
-- El cuerpo del texto mantiene una serif legible (`Cormorant Garamond`) para no perjudicar la lectura.
+Se ha sustituido la identidad visual anterior por el logo aportado por el usuario (derivado del juego), aplicado en modo **B**:
+
+- cabecera,
+- favicon,
+- portada/hero,
+- sección del libro,
+- y pie de página.
+
+Archivos añadidos en `assets/`:
+
+- `logo-editorial-full.png`
+- `logo-editorial-mark.png`
+- `favicon.png`
+- `apple-touch-icon.png`
+- `og-image.png`
