@@ -95,3 +95,10 @@ La sección de `Rituales en la lluvia` usa ahora la cubierta completa aportada p
 - `assets/rituales-en-la-lluvia-cover-thumb.jpg`
 
 El bloque HTML actualizado está en `index.html`, dentro de `<article id="rituales" class="book-showcase">`.
+
+
+## Actualización: compra física
+
+Se ha añadido en la sección `Rituales en la lluvia` un botón de compra física que enlaza a Amazon:
+
+`https://amzn.eu/d/05rCpy3P`
